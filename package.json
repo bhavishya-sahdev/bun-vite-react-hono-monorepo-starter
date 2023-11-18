@@ -4,6 +4,11 @@
     "./server",
     "./client"
   ],
+  "scripts": {
+    "dev:client": "cd client && bun run dev",
+    "dev:server": "cd server && bun run dev",
+    "build:client": "cd client && bun run build"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },

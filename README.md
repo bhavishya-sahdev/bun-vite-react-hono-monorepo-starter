@@ -1,4 +1,4 @@
-# docushare
+# bun-vite-react-hono-monorepo-starter
 
 To install dependencies:
 
@@ -6,10 +6,16 @@ To install dependencies:
 bun install
 ```
 
-To run:
+To run client:
 
 ```bash
-bun run index.ts
+bun run dev:client
+```
+
+To run server:
+
+```bash
+bun run dev:server
 ```
 
 This project was created using `bun init` in bun v1.0.12. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
