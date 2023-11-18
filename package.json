@@ -1,0 +1,13 @@
+{
+  "name": "bun-vite-react-hono-monorepo-starter",
+  "workspaces": [
+    "./server",
+    "./client"
+  ],
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
